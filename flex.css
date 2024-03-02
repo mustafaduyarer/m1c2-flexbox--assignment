@@ -3,6 +3,11 @@
     height: 100px;
     background-color: #73dab2;
 }
+.item{
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2; 
+}
 
 .flex {
     margin: 10px;
@@ -43,7 +48,76 @@
     background-color: #3d8b6d;
 }
 
+/* Flexbox 5 */
+.flexFive{
+    display: flex;
+    width: 350px;
+}
+.flexFive .item{
+    width: 100px;
+    height: 100px;
+    background-color: #0b6643;
+    margin: 2px;
 
+}
+#grow{
+    flex-grow: 2;
+}
 
+/* Flexbox 6 */
+.flexSix{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    background-color:  #f1f1f1;
+    flex-direction: column;
+}
+.flexSix > .one{
+    display: flex;
+    justify-content: space-around;
+}
 
+.flexSix > .two{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flexSix > .three{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Flexbox 7 */
+.flexSeven{
+    display: flex;
+    height: 400px;
+    width: 500px;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color:  #f1f1f1;
+}
+.flexSeven .one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.flexSeven .two{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+}
+.flexSeven .three{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start
+}
+.flexSeven .four{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
 
